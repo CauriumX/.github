@@ -72,7 +72,7 @@ https://cdn.jsdelivr.net/gh/CauriumX/mihomo-apply@<version>/template.yaml
 ```
 
 Replace `<version>` with a tag from [the tags list][tags]. The current one is
-`v0.1.1`.
+`v0.1.2`.
 
 Reference a single ruleset:
 
@@ -82,7 +82,7 @@ rule-providers:
     type: http
     behavior: domain
     format: mrs
-    url: "https://cdn.jsdelivr.net/gh/CauriumX/mihomo-apply@v0.1.1/site/AI-Site.mrs"
+    url: "https://cdn.jsdelivr.net/gh/CauriumX/mihomo-apply@v0.1.2/site/AI-Site.mrs"
     path: ./ruleset/AI-Site.mrs
     proxy: DIRECT
     interval: 600
